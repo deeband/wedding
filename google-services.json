@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "960125984155",
+    "project_id": "wedding-dc7d7",
+    "storage_bucket": "wedding-dc7d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960125984155:android:d2517bb4caa1f2c18bd53e",
+        "android_client_info": {
+          "package_name": "com.example.wedding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960125984155-os4ujean5dbkdsvb9gs2sk7mk5q2a7q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTRujYcqCDL3N945de0pqd_7c03HTBsZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960125984155-os4ujean5dbkdsvb9gs2sk7mk5q2a7q5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "960125984155-fmu2vg26faotscmhfe0c6dv1otpcj78g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wedding"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
