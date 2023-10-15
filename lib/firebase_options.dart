@@ -23,7 +23,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -62,15 +65,5 @@ class DefaultFirebaseOptions {
     messagingSenderId: '960125984155',
     projectId: 'wedding-dc7d7',
     storageBucket: 'wedding-dc7d7.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD3hqjQ-1gVrcH-P96scnVwOD_k54RHQHc',
-    appId: '1:960125984155:ios:bf31115236c11a5a8bd53e',
-    messagingSenderId: '960125984155',
-    projectId: 'wedding-dc7d7',
-    storageBucket: 'wedding-dc7d7.appspot.com',
-    iosClientId: '960125984155-fmu2vg26faotscmhfe0c6dv1otpcj78g.apps.googleusercontent.com',
-    iosBundleId: 'com.example.wedding',
   );
 }
