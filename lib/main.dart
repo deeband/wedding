@@ -17,12 +17,25 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My App',
-      initialRoute: '/', // Set the initial route to '/'
+      title: 'Wedding',
+      initialRoute: '/login', // Set the initial route to '/'
       routes: {
-        '/': (context) => LoginPage(),
+        '/login': (context) => LoginPage(),
         '/calendar': (context) => CalendarPage(), // Add the new route here
       },
     );
   }
 }
+
+
+
+// import 'package:flutter/material.dart';
+// import 'model/model.dart';
+// import 'sample_browser.dart';
+//
+// Future<void> main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await updateControlItems();
+//   runApp(const SampleBrowser());
+// }
+
